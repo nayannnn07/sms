@@ -1,0 +1,48 @@
+Project Name: SMS
+
+Add to libraries:
+Jtattoo(JAR)
+MYSQL JDBC(Library)
+
+SMS>Sourcs package>new package
+com.nccs.sms.gui->JFrame Form(LoginDialog)
+		->JFrame Form(Dashboard)
+		->JPanel Form(User)
+		->JPanel Form(SearchUserPanel)
+
+		->JPanel Form(Student)
+		->JPanel Form(SearchStudentPanel)
+
+com.nccs.sms.dao->Java Class( UserDAO)
+
+		->Java Class(StudentDAO)
+
+com.nccs.sms.dto->Java Class(UserDTO)
+
+		->Java Class(StudentDTO)
+
+com.nccs.sms.database -> Java Class(ConnectionFactory)
+com.nccs.sms.main -> Java Class(MainSMS)
+
+ 
+Design>Palettee
+jLabel
+edit text: Username
+change var name: 
+usernameLbl
+usernameTxt
+loginBttn
+
+DB name: sms
+Table: user
+
+id, fullname, username, password, address, contact, email
+id- int primary key
+other varchar
+
+username: admin
+password: admin
+Insert data
+
+
+
